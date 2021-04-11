@@ -1,0 +1,15 @@
+<div class="position-relative my-3">
+  <div class="title-top-left position-absolute">
+    <a routerLink="/rankings/{{ item.rankingId }}" class="text-decoration-none"
+      >TOP 10</a
+    >
+  </div>
+  <img
+    src="./assets/icons/iconTV.jpg"
+    class="tv-top-right position-absolute"
+    alt=""
+  />
+  <a routerLink="/rankings/{{ item.rankingId }}">
+    <img [src]="item.imgSrc" class="w-100" alt="Image not found!" />
+  </a>
+</div>

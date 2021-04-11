@@ -1,0 +1,49 @@
+@import '../../../../../styles';
+
+.page-title {
+  border-left: to-rem(20px) solid color('dark-red');
+}
+
+.card-container,
+.card-image {
+  max-height: to-rem(300px);
+}
+
+.card-image {
+  object-fit: cover;
+}
+
+.arrow-up-left {
+  left: to-rem(14px);
+  width: to-rem(33px);
+}
+
+.bottom-left-title {
+  background: linear-gradient(
+    to right,
+    rgba(153, 15, 39, 1) 0%,
+    rgba(44, 5, 20, 1) 100%
+  );
+  letter-spacing: to-rem(1px);
+  bottom: to-rem(25px);
+  left: to-rem(30px);
+  padding: 0 to-rem(10px);
+  width: 80%;
+
+  a {
+    color: color('white');
+    text-decoration: none;
+  }
+
+  .bottom-left-date {
+    color: color('white');
+  }
+
+  .bottom-right-line {
+    width: to-rem(20px);
+    height: to-rem(21px);
+    background: color('white');
+    right: to-rem(10px);
+    bottom: 0;
+  }
+}

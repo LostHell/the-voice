@@ -1,0 +1,10 @@
+<div class="container">
+  <h3 class="page-title text-uppercase font-weight-bold my-5 pl-3">
+    Ranking {{ item.rankingId }}
+  </h3>
+  <app-chart-render
+    *ngFor="let item of item.charts; let position = index"
+    [item]="item"
+    [position]="position + 1"
+  ></app-chart-render>
+</div>

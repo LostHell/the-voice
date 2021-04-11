@@ -1,0 +1,39 @@
+@import '../../../../../../styles';
+
+header {
+  @include media-breakpoint-up(md) {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  a {
+    color: color('black');
+    outline: none;
+  }
+
+  .navi {
+    li:hover {
+      background-color: color('dark-red');
+
+      a {
+        color: color('white');
+      }
+    }
+  }
+
+  .logo {
+    width: to-rem(84px);
+
+    @include media-breakpoint-up(md) {
+      width: to-rem(112px);
+    }
+  }
+
+  .social {
+    width: to-rem(26px);
+
+    @include media-breakpoint-up(md) {
+      width: to-rem(32px);
+    }
+  }
+}

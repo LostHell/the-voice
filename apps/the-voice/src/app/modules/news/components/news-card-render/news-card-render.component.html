@@ -1,0 +1,15 @@
+<mat-card>
+  <img [src]="item.src" alt="Image not found!" mat-card-image />
+  <a
+    *ngIf="!isForRead"
+    routerLink="/news/{{ item.newsId }}"
+    class="text-decoration-none"
+  >
+    <mat-card-content>
+      <p class="font-weight-bold">{{ item.content | slice: 0:60 }}...</p>
+    </mat-card-content>
+  </a>
+  <mat-card-content *ngIf="isForRead">
+    <p class="font-weight-bold">{{ item.content }}</p>
+  </mat-card-content>
+</mat-card>

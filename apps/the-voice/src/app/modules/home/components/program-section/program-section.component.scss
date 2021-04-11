@@ -1,0 +1,38 @@
+@import '../../../../../styles';
+
+.program {
+  background-color: color('white-blue');
+
+  .page-title {
+    border-left: to-rem(20px) solid color('dark-red');
+  }
+
+  .arrow-up-left {
+    width: to-rem(33px);
+    left: to-rem(30px);
+  }
+
+  .tv-icon-right-up {
+    width: to-rem(35px);
+    right: to-rem(35px);
+  }
+
+  img.card-image {
+    max-height: to-rem(250px);
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  .bottom-left-title {
+    background: linear-gradient(
+      to right,
+      rgba(153, 15, 39, 1) 0%,
+      rgba(44, 5, 20, 1) 100%
+    );
+    letter-spacing: to-rem(1px);
+    color: color('white');
+    bottom: 5%;
+    left: 5%;
+    padding: to-rem(10px) to-rem(16px);
+  }
+}

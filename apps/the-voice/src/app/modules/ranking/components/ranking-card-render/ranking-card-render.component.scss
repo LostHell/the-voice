@@ -1,0 +1,20 @@
+@import '../../../../../styles';
+
+.title-top-left {
+  left: to-rem(14px);
+  padding: to-rem(8px) to-rem(10px) to-rem(8px) to-rem(10px);
+  background: linear-gradient(
+    to right,
+    rgba(153, 15, 39, 1) 0%,
+    rgba(44, 5, 20, 1) 100%
+  );
+
+  a {
+    color: color('white');
+  }
+}
+
+.tv-top-right {
+  right: to-rem(35px);
+  width: to-rem(35px);
+}

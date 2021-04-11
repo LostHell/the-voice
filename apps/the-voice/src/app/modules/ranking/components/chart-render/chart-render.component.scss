@@ -1,0 +1,32 @@
+@import '../../../../../styles';
+
+.image {
+  width: to-rem(70px);
+  object-fit: cover;
+}
+
+.title {
+  width: 40%;
+}
+
+i {
+  color: color('red');
+  font-size: to-rem(28px);
+
+  @include media-breakpoint-up(md) {
+    font-size: to-rem(42px);
+  }
+}
+
+.material-icons {
+  font-size: to-rem(21px);
+  color: color('black');
+
+  @include media-breakpoint-up(md) {
+    font-size: to-rem(35px);
+  }
+
+  @include hover-focus {
+    color: color('red');
+  }
+}

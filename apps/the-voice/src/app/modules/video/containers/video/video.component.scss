@@ -1,0 +1,21 @@
+@import '../../../../../styles';
+
+.video {
+  background-color: color('white-blue');
+
+  img {
+    cursor: pointer;
+  }
+
+  p {
+    background: linear-gradient(
+      to right,
+      rgba(153, 15, 39, 1) 0%,
+      rgba(44, 5, 20, 1) 100%
+    );
+    padding: to-rem(5px);
+    color: color('white');
+    bottom: to-rem(21px);
+    margin: 0;
+  }
+}

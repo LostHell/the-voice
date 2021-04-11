@@ -1,0 +1,46 @@
+@import '../../../../../styles';
+
+.video {
+  background-color: color('white');
+
+  .page-title {
+    border-left: to-rem(20px) solid color('dark-red');
+  }
+
+  .arrow-up-left {
+    width: to-rem(33px);
+    left: to-rem(30px);
+  }
+
+  .icon-youtube-up-right {
+    width: to-rem(35px);
+    right: to-rem(35px);
+  }
+
+  .bottom-left-video-title {
+    background: linear-gradient(
+      to right,
+      rgba(153, 15, 39, 1) 0%,
+      rgba(44, 5, 20, 1) 100%
+    );
+    color: color('white');
+    padding: to-rem(10px);
+    width: 80%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+
+    a {
+      font-size: to-rem(14px);
+      color: color('white');
+    }
+  }
+  .all-videos {
+    color: color('black');
+
+    img {
+      width: to-rem(50px);
+    }
+  }
+}

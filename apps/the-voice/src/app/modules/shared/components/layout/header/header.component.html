@@ -1,0 +1,66 @@
+<header class="d-flex justify-content-between my-3">
+  <div class="flex-md-grow-1 align-self-center pl-3">
+    <a routerLink="/">
+      <img
+        class="logo"
+        (click)="onCloseSidenav()"
+        src="./assets/images/The_Voice_black_logo.png"
+        alt="Logo not Found"
+      />
+    </a>
+  </div>
+  <nav class="d-none d-md-flex flex-md-grow-1 justify-content-between">
+    <ul class="navi d-flex align-items-center list-unstyled m-0">
+      <li *ngFor="let item of navigation" class="px-3 py-1">
+        <a
+          [routerLink]="item.route"
+          class="text-uppercase font-weight-bold text-decoration-none"
+          >{{ item.name }}</a
+        >
+      </li>
+    </ul>
+    <ul class="d-flex align-items-center list-unstyled pr-3 m-0">
+      <li>
+        <a href="#"
+          ><img
+            class="social mx-1"
+            src="./assets/icons/facebook.svg"
+            alt="FB icon not found"
+        /></a>
+      </li>
+      <li>
+        <a href="#"
+          ><img
+            class="social mx-1"
+            src="./assets/icons/instagram.svg"
+            alt="IN icon not found"
+        /></a>
+      </li>
+      <li>
+        <a href="#"
+          ><img
+            class="social mx-1"
+            src="./assets/icons/tik-tak-b.svg"
+            alt="TT icon not found"
+        /></a>
+      </li>
+      <li>
+        <a href="#"
+          ><img
+            class="social mx-1"
+            src="./assets/icons/viber.svg"
+            alt="VB icon not found"
+        /></a>
+      </li>
+    </ul>
+  </nav>
+  <nav class="d-flex d-md-none pr-3">
+    <button
+      class="menu-btn rounded-circle"
+      (click)="onToggleSidenav()"
+      mat-icon-button
+    >
+      <span class="material-icons">menu</span>
+    </button>
+  </nav>
+</header>

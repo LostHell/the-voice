@@ -1,0 +1,13 @@
+<div class="container">
+  <h3 class="page-title text-uppercase my-3 my-md-5 pl-3 font-weight-bold">
+    News
+  </h3>
+  <div class="row">
+    <app-news-card-render
+      *ngFor="let item of news"
+      [item]="item"
+      [isForRead]="false"
+      class="col-12 col-md-6 col-lg-3 my-3"
+    ></app-news-card-render>
+  </div>
+</div>

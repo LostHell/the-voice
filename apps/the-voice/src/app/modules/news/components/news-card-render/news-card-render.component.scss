@@ -1,0 +1,23 @@
+@import '../../../../../styles';
+
+mat-card {
+  background-color: color('white');
+  color: color('black');
+
+  img {
+    object-fit: cover;
+
+    @include media-breakpoint-up(md) {
+      min-height: to-rem(265px);
+    }
+  }
+
+  a {
+    color: color('black');
+  }
+
+  mat-card-content {
+    font-size: to-rem(16px);
+    font-family: 'Montserrat', sans-serif;
+  }
+}

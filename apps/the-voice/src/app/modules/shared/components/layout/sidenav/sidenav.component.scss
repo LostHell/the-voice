@@ -1,0 +1,41 @@
+@import '../../../../../../styles';
+
+mat-nav-list {
+  a {
+    color: color('black');
+    transition: all 0.15s;
+
+    @include hover-focus {
+      background: color('black');
+      color: color('white');
+    }
+
+    @include media-breakpoint-up(md) {
+      @include hover-focus {
+        color: color('black');
+        background: none;
+      }
+    }
+  }
+
+  .social {
+    color: color('black');
+
+    h4 {
+      color: color('white');
+      background: linear-gradient(to right, #990f27 0%, #2c0514 100%);
+    }
+
+    ul {
+      padding: 0 to-rem(16px);
+
+      img {
+        width: to-rem(32px);
+      }
+    }
+    a:hover,
+    a:focus {
+      background: transparent;
+    }
+  }
+}

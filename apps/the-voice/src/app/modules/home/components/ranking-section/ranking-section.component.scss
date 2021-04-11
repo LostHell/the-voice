@@ -1,0 +1,66 @@
+@import '../../../../../styles';
+
+.ranking {
+  background-color: color('white-blue');
+
+  .page-title {
+    border-left: to-rem(20px) solid color('dark-red');
+  }
+
+  .the-voice-card {
+    max-height: to-rem(250px);
+  }
+
+  .top-left-title {
+    left: to-rem(14px);
+    padding: to-rem(8px) to-rem(10px) to-rem(8px) to-rem(10px);
+    background: linear-gradient(
+      to right,
+      rgba(153, 15, 39, 1) 0%,
+      rgba(44, 5, 20, 1) 100%
+    );
+
+    a {
+      color: color('white');
+    }
+  }
+
+  .tv-right-up {
+    width: to-rem(35px);
+    right: to-rem(35px);
+
+    img {
+      max-height: to-rem(55px);
+    }
+  }
+
+  .card-image {
+    img {
+      max-height: to-rem(250px);
+      width: 100%;
+      object-fit: cover;
+      overflow: hidden;
+    }
+  }
+
+  .bottom-left-date {
+    background: linear-gradient(
+      to right,
+      rgba(153, 15, 39, 1) 0%,
+      rgba(44, 5, 20, 1) 100%
+    );
+    letter-spacing: to-rem(3px);
+    color: color('white');
+    bottom: 5%;
+    left: 5%;
+    padding: to-rem(10px) to-rem(16px);
+  }
+
+  .all-rankings {
+    color: color('black');
+
+    img {
+      width: to-rem(50px);
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import '../styles';
+
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  mat-sidenav {
+    width: 100%;
+    background-color: color('white');
+  }
+
+  mat-sidenav-content {
+    background-color: color('white');
+    color: color('black');
+  }
+}

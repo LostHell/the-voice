@@ -1,0 +1,36 @@
+<mat-nav-list>
+  <a
+    *ngFor="let item of navigation"
+    [routerLink]="item.route"
+    (click)="onSidenavClose($event)"
+    class="text-decoration-none"
+    mat-list-item
+  >
+    <span class="nav-caption">{{ item.name }}</span>
+  </a>
+  <div class="social">
+    <h4 class="text-center text-uppercase mb-3">Social Networks</h4>
+    <ul class="d-flex justify-content-around align-items-center list-unstyled">
+      <li>
+        <a href="#"
+          ><img src="./assets/icons/facebook.svg" alt="Image not found!"
+        /></a>
+      </li>
+      <li>
+        <a href="#"
+          ><img src="./assets/icons/instagram.svg" alt="Image not found!"
+        /></a>
+      </li>
+      <li>
+        <a href="#"
+          ><img src="./assets/icons/tik-tak-b.svg" alt="Image not found!"
+        /></a>
+      </li>
+      <li>
+        <a href="#"
+          ><img src="./assets/icons/viber.svg" alt="Image not found!"
+        /></a>
+      </li>
+    </ul>
+  </div>
+</mat-nav-list>
