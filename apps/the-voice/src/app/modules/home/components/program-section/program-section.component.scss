@@ -9,12 +9,16 @@
 
   .arrow-up-left {
     width: to-rem(33px);
-    left: to-rem(30px);
+    left: to-rem(14px);
   }
 
   .tv-icon-right-up {
     width: to-rem(35px);
     right: to-rem(35px);
+
+    img {
+      max-height: to-rem(55px);
+    }
   }
 
   img.card-image {
