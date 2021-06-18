@@ -1,7 +1,16 @@
 @import '../../../../../styles';
 
 .video {
-  background-color: color('white-blue');
+  background-color: color('white');
+
+  .page-title {
+    border-left: to-rem(20px) solid color('dark-red');
+
+    @include media-breakpoint-down(md) {
+      font-size: to-rem(20px);
+      border-left: to-rem(14px) solid color('dark-red');
+    }
+  }
 
   img {
     cursor: pointer;

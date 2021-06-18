@@ -8,12 +8,19 @@ footer {
     font-size: to-rem(16px);
   }
 
-  .footer-top-left-image,
-  .footer-bottom-right-image {
+  .footer-top-left-image {
     width: to-rem(140px);
 
     @include media-breakpoint-up(md) {
       width: to-rem(168px);
+    }
+  }
+
+  .footer-bottom-right-image {
+    width: to-rem(140px);
+
+    @include media-breakpoint-up(md) {
+      width: to-rem(112px);
     }
   }
 
