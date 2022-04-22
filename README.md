@@ -2,6 +2,15 @@
 
 # TheVoice
 
+# Windows
+<p align="center"><img src="https://user-images.githubusercontent.com/46658413/164699358-a487c571-97b6-43df-960d-72ba85fe8ad6.png" width="450"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/46658413/164699453-7870db8c-2fb1-4a38-aa08-8a1c3e8f76ca.png" width="450"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/46658413/164699540-a1df4302-8651-4e39-96ba-d3702908479e.png" width="450"></p>
+
+# Mobile
+<p align="center"><img src="https://user-images.githubusercontent.com/46658413/164699718-44f84910-4c42-4e56-9a46-913ca27d60ec.png" width="450"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/46658413/164699721-09505e77-6864-44e8-b854-716480a5a2ea.png" width="450"></p>
+
 This project was generated using [Nx](https://nx.dev).
 
 <p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
